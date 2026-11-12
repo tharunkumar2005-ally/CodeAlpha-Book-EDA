@@ -1,0 +1,42 @@
+Exploratory Data Analysis (EDA) Report
+====================================
+Records analyzed: 12
+Source columns: 6
+Missing values in source data: 0
+Exact duplicate rows in source data: 0
+
+Source column data types:
+- title: str
+- author: str
+- price: int64
+- rating: float64
+- availability: str
+- genre: str
+
+Numerical columns: price, rating
+Categorical columns: title, author, availability, genre
+
+Summary statistics:
+- Price: minimum 280.00, median 375.00, mean 381.42, maximum 520.00.
+- Rating: minimum 4.20, median 4.65, mean 4.60, maximum 4.90.
+- Availability: in stock = 8, low stock = 3, out of stock = 1.
+
+Outlier Detection (1.5 x IQR):
+- price: Q1=317.50, Q3=427.50, IQR=110.00; fences=152.50 to 592.50; no outliers.
+- rating: Q1=4.47, Q3=4.72, IQR=0.25; fences=4.10 to 5.10; no outliers.
+
+Meaningful Trends and Patterns:
+- Ratings range from 4.2 to 4.9; 4.7 is most frequent (3 books).
+- Mean rating rises from 4.43 in the lowest-price quartile to 4.80 in the highest-price quartile.
+- Price and rating have a Pearson correlation of 0.653; this is an association in this sample, not evidence that price causes higher ratings.
+- The largest genre group is Self Help (3 books).
+
+Analytical Questions and Findings:
+1. Do higher-priced books tend to have higher ratings? In this dataset, the Pearson correlation is 0.653; mean rating ranges from 4.43 in the lowest-price quartile to 4.80 in the highest-price quartile.
+2. What is the stock position of the catalog? in stock: 8, low stock: 3, out of stock: 1.
+3. Are there numerical outliers using the 1.5 x IQR rule? price: 0, rating: 0.
+
+Conclusion:
+- The 12-book catalog has an average price of 381.42 and an average rating of 4.60.
+- Eight books are in stock, three are low stock, and one is out of stock; the IQR check found no price or rating outliers.
+- Price and rating move together positively in this sample, but the small catalog does not support causal claims or broad generalization.

@@ -1,0 +1,13 @@
+title,author,price,rating,availability,genre
+The Alchemist,Paulo Coelho,299,4.7,In Stock,Fantasy
+Atomic Habits,James Clear,399,4.8,In Stock,Self Help
+Deep Work,Cal Newport,349,4.5,Low Stock,Productivity
+Ikigai,Hector Garcia,320,4.6,In Stock,Philosophy
+Think and Grow Rich,Napoleon Hill,280,4.4,Out of Stock,Self Help
+The Psychology of Money,Morgan Housel,420,4.7,In Stock,Finance
+Rich Dad Poor Dad,Robert Kiyosaki,360,4.3,In Stock,Finance
+The Power of Habit,Charles Duhigg,310,4.2,Low Stock,Self Help
+One Hundred Years of Solitude,Gabriel Garcia Marquez,450,4.9,In Stock,Classic
+Clean Code,Robert C. Martin,520,4.8,In Stock,Technology
+To Kill a Mockingbird,Harper Lee,390,4.6,Low Stock,Classic
+The Pragmatic Programmer,Andrew Hunt,480,4.7,In Stock,Technology
